@@ -1,7 +1,9 @@
+import Basics from './components/Basics/Basics';
+
 import './App.css';
 
 function App() {
-  return <h1>Learning CSS</h1>;
+  return <Basics />;
 }
 
 export default App;
