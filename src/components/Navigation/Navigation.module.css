@@ -1,0 +1,25 @@
+.mainHeader {
+  background: #2ddf5c;
+  width: 100%;
+  padding: 12px 18px;
+}
+
+.mainHeader > div {
+  display: inline-block;
+}
+
+.mainNav {
+  text-align: right;
+  width: calc(100% - 44px);
+  display: inline-block;
+}
+
+.mainNavItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mainNavItem {
+  display: inline-block;
+}
