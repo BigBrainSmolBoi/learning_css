@@ -5,7 +5,7 @@ import classes from './Plans.module.css';
 export default function Plans() {
   return (
     <div>
-      <div className={classes.plans}>
+      <div>
         <h2 className={classes.plansTitle}>Choose your plan</h2>
         <article>
           <h1>FREE</h1>
