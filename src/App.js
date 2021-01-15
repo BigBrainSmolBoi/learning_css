@@ -1,5 +1,6 @@
-import Basics from './components/Basics/Basics';
+import Jumbotron from './components/Jumbotron/Jumbotron';
 import Nav from './components/Navigation/Navigation';
+import Plans from './components/Plans/Plans';
 
 import './App.css';
 
@@ -7,9 +8,8 @@ function App() {
   return (
     <>
       <Nav />
-      <Basics title />
-      <Basics subTitle />
-      <p>Make sure you get the most for your money!</p>
+      <Jumbotron />
+      <Plans />
     </>
   );
 }

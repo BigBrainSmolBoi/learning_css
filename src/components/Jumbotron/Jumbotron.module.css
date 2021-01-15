@@ -11,9 +11,5 @@ body {
   background: #ff1b68;
   height: 428px;
   background: url('../../assets/freedom.jpg');
-}
-
-.subTitle {
-  color: rgb(43, 187, 51);
-  font-weight: 600;
+  padding: 20px;
 }
