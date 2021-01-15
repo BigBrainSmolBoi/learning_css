@@ -5,9 +5,9 @@ import classes from './Plans.module.css';
 export default function Plans() {
   return (
     <div>
-      <div>
+      <div id='plans'>
         <h2 className={classes.plansTitle}>Choose your plan</h2>
-        <article>
+        <article className={classes.plan}>
           <h1>FREE</h1>
           <h2>$0/month</h2>
           <h3>For hobby projects or small teams.</h3>
@@ -21,7 +21,7 @@ export default function Plans() {
             <button>CHOOSE PLAN</button>
           </div>
         </article>
-        <article>
+        <article className={classes.plan}>
           <h1>RECOMMENDED</h1>
           <h1>PLUS</h1>
           <h2>$29/month</h2>
@@ -36,7 +36,7 @@ export default function Plans() {
             <button>CHOOSE PLAN</button>
           </div>
         </article>
-        <article>
+        <article className={classes.plan}>
           <h1>PREMIUM</h1>
           <h2>$99/month</h2>
           <h3>Your enterprise solution.</h3>
