@@ -9,6 +9,8 @@ body {
 
 .titleBar {
   background: #ff1b68;
+  height: 428px;
+  background: url('../../assets/freedom.jpg');
 }
 
 .subTitle {

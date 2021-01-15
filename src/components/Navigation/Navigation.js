@@ -6,7 +6,9 @@ export default function Navigation() {
   return (
     <header className={classes.mainHeader}>
       <div>
-        <a href='#'>uHost</a>
+        <a href='#' className={classes.mainHeaderBrand}>
+          uHost
+        </a>
       </div>
       <nav className={classes.mainNav}>
         <ul className={classes.mainNavItems}>
@@ -16,7 +18,7 @@ export default function Navigation() {
           <li className={classes.mainNavItem}>
             <a href='#'>Customers</a>
           </li>
-          <li className={classes.mainNavItem}>
+          <li className={`${classes.mainNavItem} ${classes.mainNavItemCta}`}>
             <a href='#'>Start Hosting</a>
           </li>
         </ul>

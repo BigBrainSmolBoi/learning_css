@@ -5,12 +5,20 @@
 }
 
 .mainHeader > div {
+  vertical-align: middle;
   display: inline-block;
 }
 
+.mainHeaderBrand {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .mainNav {
+  vertical-align: middle;
   text-align: right;
-  width: calc(100% - 44px);
+  width: calc(100% - 65px);
   display: inline-block;
 }
 
@@ -22,4 +30,32 @@
 
 .mainNavItem {
   display: inline-block;
+  margin: 0 16px;
+}
+
+.mainNavItem a {
+  color: #034f1f;
+  text-decoration: none;
+  padding: 3px 0;
+  font-weight: bold;
+}
+
+.mainNavItem a:hover,
+.mainNavItem a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.mainNavItemCta a {
+  background: #ff1b68;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.mainNavItemCta a:hover,
+.mainNavItemCta a:active {
+  background: white;
+  color: #ff1b68;
+  border: none;
 }
