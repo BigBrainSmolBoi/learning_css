@@ -1,9 +1,12 @@
 import React from 'react';
 
+import classes from './Plans.module.css';
+
 export default function Plans() {
   return (
     <div>
-      <div>
+      <div className={classes.plans}>
+        <h2 className={classes.plansTitle}>Choose your plan</h2>
         <article>
           <h1>FREE</h1>
           <h2>$0/month</h2>
