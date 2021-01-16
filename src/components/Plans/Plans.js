@@ -21,8 +21,8 @@ export default function Plans() {
             <button>CHOOSE PLAN</button>
           </div>
         </article>
-        <article className={classes.plan}>
-          <h1>RECOMMENDED</h1>
+        <article className={`${classes.plan} ${classes.planHighlighted}`}>
+          <h1 className={classes.highlightedAnnotation}>RECOMMENDED</h1>
           <h1>PLUS</h1>
           <h2>$29/month</h2>
           <h3>For ambitious projects.</h3>

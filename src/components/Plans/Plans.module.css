@@ -19,3 +19,11 @@
 .plan ul {
   line-height: 25px;
 }
+
+.planHighlighted {
+  background: #19b84c;
+  color: white;
+}
+
+.highlightedAnnotation {
+}
